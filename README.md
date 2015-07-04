@@ -9,12 +9,10 @@ Just add the line in his view, well above the ``<textarea id="tinymce">``:<br>
 
 If you want to be available globally, just add the tag ``<head>``
 
---
-
 ## Instalation
 ``` composer require ktquez/laravel-tinymce ```
 
-### Laravel
+## Laravel
 Add in ``config/app.php``: <br>
 ``` 
 'Ktquez\Tinymce\TinymceServiceProvider' 
@@ -25,7 +23,7 @@ Finally, publish the files: <br>
 php artisan vendor:publish --force
 ```
 
-### Lumen
+## Lumen
 Add in ``bootstrap/app.php``: <br>
 ```
 $app->configure('tinymce');
@@ -35,8 +33,6 @@ $app->register('Ktquez\TinymceServiceProvider');
 As in Lumen can not run the ``vendor:publish``, you must copy the ``config/tinymce.php`` to the base path of your project in the ``config/``
 
 And copy the ``tinymce/`` folder that is within ``assets/js/`` to your folder ``public/`` with the path you want.
-
---
 
 ## Configuration
 
