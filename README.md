@@ -1,1 +1,1 @@
-# WYSIWYG TinyMCE editor for Laravel and Lumen Framework
+##TinyMCE editor for Laravel and Lumen Framework
