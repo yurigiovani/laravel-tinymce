@@ -27,7 +27,7 @@ php artisan vendor:publish --force
 Add in ``bootstrap/app.php``: <br>
 ```
 $app->configure('tinymce');
-$app->register('Ktquez\TinymceServiceProvider');
+$app->register('Ktquez\Tinymce\TinymceServiceProvider');
 ```
 
 As in Lumen can not run the ``vendor:publish``, you must copy the ``config/tinymce.php`` to the base path of your project in the ``config/``
