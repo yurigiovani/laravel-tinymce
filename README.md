@@ -39,7 +39,7 @@ And copy the ``tinymce/`` folder that is within ``assets/js/`` to your folder ``
 In ``config/tinymce.php`` have the settings of your editor: <br>
 Set the path of ``tinymce.min.js`` file:
 ```
-'cdn' => url('path/to/the/tinymce'),
+'cdn' => config('app.url').'/vendor/js/tinymce/tinymce.min.js',
 ```
 
 Set customization parameters of TinyMCE:
