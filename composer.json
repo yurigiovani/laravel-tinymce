@@ -1,14 +1,17 @@
 {
-    "name": "ktquez/laravel-tinymce",
+    "name": "codeedu/laravel-tinymce",
     "description": "TinyMCE editor for Laravel and Lumen Framework",
     "keywords": ["lumen","laravel","tinymce","ckeditor","editor","WYSIWYG","textarea"],
-    "homepage": "https://github.com/ktquez/laravel-tinymce",
+    "homepage": "https://github.com/codeedu/laravel-tinymce",
     "license": "MIT",
     "authors": [
         {
             "name": "Alan Albuquerque: ktquez",
-            "website": "http://ktquez.com",
             "email": "ktquez@gmail.com"
+        },
+        {
+            "name": "Luiz Carlos",
+            "email": "argentinaluiz@gmail.com"
         }
     ],
     "autoload":{
