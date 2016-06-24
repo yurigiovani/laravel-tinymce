@@ -1,8 +1,8 @@
 {
-    "name": "codeedu/laravel-tinymce",
+    "name": "yurigiovani/laravel-tinymce",
     "description": "TinyMCE editor for Laravel and Lumen Framework",
     "keywords": ["lumen","laravel","tinymce","ckeditor","editor","WYSIWYG","textarea"],
-    "homepage": "https://github.com/codeedu/laravel-tinymce",
+    "homepage": "https://github.com/yurigiovani/laravel-tinymce",
     "license": "MIT",
     "authors": [
         {
